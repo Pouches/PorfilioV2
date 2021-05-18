@@ -1,0 +1,24 @@
+{
+  "name": "PorfilioV2",
+  "version": "1.0.0",
+  "description": "Second rendition of my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pouches/PorfilioV2.git"
+  },
+  "keywords": [],
+  "author": "Cade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pouches/PorfilioV2/issues"
+  },
+  "homepage": "https://github.com/Pouches/PorfilioV2#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
