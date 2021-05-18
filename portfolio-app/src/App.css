@@ -1,0 +1,59 @@
+.NavBar{
+  /* background:rgba(4, 255, 133, 0.626); */
+  width:90%;
+  left:5%;
+  position:fixed;
+  border-radius:2rem;
+  padding:1%;
+  overflow: hidden;
+  align-content: center;
+}
+.LinkCard {
+  border:black solid 2px;
+  width:20%;
+  text-align:center;
+  font-size:1.2rem;
+  border-radius:2rem;
+  padding:0.5%;
+  transition:0.5s;
+}
+.NavBar > table{
+  width:100%;
+  padding:0%;
+  margin:0%;
+  position:relative;
+  float:right;
+}
+.NameCard{
+  float:left;
+  width:90%;
+  border: black solid 2px;
+  border-radius: 2rem;
+  text-align:center;
+  font-size:1.5rem;
+  background-color: rgb(0, 251, 255);
+}
+body{
+  background-color: rgb(41, 41, 41);
+}
+.LinkCard{
+  background:rgba(4, 255, 133, 0.626);
+}
+.LinkCard:hover{
+  background-color: rgb(0, 251, 255);
+  transition: 0.5s;
+}
+.BigCard{
+  background-color: rgba(4, 255, 133,0.625);
+  font-size:1.5rem;
+  position:relative;
+  height:50%;
+  width:90%;
+  left:5%;
+  top:4rem;
+  border-radius: 2rem;
+  padding:1%;
+  border:solid 2px black;
+  margin-bottom:1rem
+}
+
