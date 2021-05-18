@@ -1,7 +1,7 @@
-const BigCard =()=>{
+const BigCard =({text})=>{
     return(
-        <div className="BigCard">
-            <p>Test</p>
+        <div className="BigCard" >
+            <p></p>
         </div>
     )
 }

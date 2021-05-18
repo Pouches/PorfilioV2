@@ -4,16 +4,13 @@ import './components/Navigation Bar'
 import NavBar from './components/Navigation Bar';
 import './components/BigCard';
 import BigCard from './components/BigCard'
-
+import './components/BodyCard'
+import BodyCard from './components/BodyCard'
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <BigCard></BigCard>
-      <BigCard></BigCard>
-      <BigCard></BigCard>
-      <BigCard></BigCard>
-
+      <BodyCard></BodyCard>
     </div>
   );
 }
