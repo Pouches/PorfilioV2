@@ -1,12 +1,11 @@
 import BigCard from '../components/BigCard'
 import '../components/BodyCard'
+let TextFile = require("../texts/texts.json")
+
 const BodyCard =()=>{
     return(
         <div className="BodyCard">
-            <BigCard text="test"></BigCard>
-            <BigCard text="Test 2"></BigCard>
-            <BigCard text="Test 3"></BigCard>
-            <BigCard text="Test 4"></BigCard>
+            <BigCard text={TextFile.mainPage.mainBody}></BigCard>
         </div>
     )
 }

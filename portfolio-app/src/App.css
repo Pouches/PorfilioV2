@@ -1,10 +1,13 @@
 .NavBar{
-  background:rgba(4, 255, 133, 0.1); 
+  background:rgba(4, 255, 133, 1); 
   width:90%;
   left:5%;
   position:fixed;
   border-radius:2rem;
-  padding:1%;
+  padding-left:1%;
+  padding-right: 1%;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
   overflow: hidden;
   align-content: center;
 }
@@ -44,21 +47,31 @@ body{
   transition: 0.5s;
 }
 .BigCard{
-  background-color: rgba(4, 255, 133,0.625);
+  background-color: rgba(4, 255, 133,1);
+  top:3em;
   font-size:1.5rem;
   position:relative;
   height:50%;
   width:90%;
   left:5%;
   border-radius: 2rem;
-  padding:1%;
+  
   border:solid 2px black;
-  margin-bottom:1rem
+  top:4rem;
 }
 .BodyCard{
   width:100%;
   height:auto;
   top:5rem;
   position:absolute;
+}
+.cardTitle{
+  color:white;
+  width:100%;
+  text-align: center;
+  background-color:rgb(92, 92, 92);
+}
+hr{
+  
 }
 
