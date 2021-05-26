@@ -105,17 +105,20 @@ NavBar > table > td{
   padding:1%;
   font-size: 2rem;
   height:auto;
+  align-content: center;
 }
 .SmallCard > img{
   width:13rem;
-  height:13rem
+  
 }
 .SmallCardContainer > .SmallCard{
   height:100%;
-  padding:auto
+  position: relative;
 }
 .SmallCardContainer{
-  height:max-content;
+  height:auto;
+  padding:none;
+  display:flexbox
 }
 .ContactButton{
   width:8rem;

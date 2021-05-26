@@ -7,8 +7,6 @@ import './components/SmallCard'
 import BigCard from './components/BigCard'
 import SmallCard from './components/SmallCard';
 import './components/SmallCardContainer'
-import Image1 from './test-content/test1.jpg';
-import Image2 from './test-content/test2.jpg';
 import SmallCardContainer from './components/SmallCardContainer';
 import './components/ContactButton'
 import ContactButton from './components/ContactButton';
