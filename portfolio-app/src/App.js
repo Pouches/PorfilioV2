@@ -18,7 +18,7 @@ import PreviousPage from './components/PreviousPage';
 import ResumePage from './components/ResumePage';
 import './components/ResumePage'
 let FileText =  require('./texts/texts.json')
-let resume = require( './texts/Resuume.pdf');
+
 
 function App() {
   return (
