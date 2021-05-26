@@ -10,16 +10,25 @@ import './components/SmallCardContainer'
 import Image1 from './test-content/test1.jpg';
 import Image2 from './test-content/test2.jpg';
 import SmallCardContainer from './components/SmallCardContainer';
+import './components/ContactButton'
+import ContactButton from './components/ContactButton';
+import './components/IndexPage';
+import IndexPage from './components/IndexPage';
+import PreviousPage from './components/PreviousPage';
+import ResumePage from './components/ResumePage';
+import './components/ResumePage'
 let FileText =  require('./texts/texts.json')
+let resume = require( './texts/Resuume.pdf');
+
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <BigCard text={FileText.mainPage.section1.mainBody} title={FileText.mainPage.section1.title} Image='./test-content/test1.jpg'></BigCard>
-      <SmallCardContainer card1Text="hi" card2Image={Image1}></SmallCardContainer>
-      <BigCard text={FileText.mainPage.section1.mainBody} title={FileText.mainPage.section1.title} Image='./test-content/test1.jpg'></BigCard>
-      <SmallCardContainer card1Text="hi" card2Image={Image1} card3Image={Image2}></SmallCardContainer>      
-      <BigCard text={FileText.mainPage.section1.mainBody} title={FileText.mainPage.section1.title} Image='./test-content/test1.jpg'></BigCard>
+      <NavBar></NavBar>
+      <IndexPage></IndexPage>
+      <ResumePage></ResumePage>
+      <PreviousPage></PreviousPage>
+      <ContactButton></ContactButton>
     </div>
   );
 }

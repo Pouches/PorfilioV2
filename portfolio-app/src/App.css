@@ -18,9 +18,10 @@
 .LinkCard {
   border:black solid 2px;
   text-align:center;
-  font-size:1.2rem;
+  font-size:3rem;
   border-radius:1rem;
   transition:0.5s;
+  width:25%;
 }
 .NavBar > table{
   width:100%;
@@ -106,11 +107,63 @@ NavBar > table > td{
   height:auto;
 }
 .SmallCard > img{
-  width:40%;
+  width:13rem;
+  height:13rem
 }
 .SmallCardContainer > .SmallCard{
   height:100%;
+  padding:auto
 }
 .SmallCardContainer{
   height:max-content;
+}
+.ContactButton{
+  width:8rem;
+  position: fixed;
+  bottom:2%;
+  right:2%;
+  z-index: 3;
+  height: 8rem;
+  border:solid black 2px;
+  border-radius: 1rem;
+  background-color: darkslategray;
+  transition: 0.4s;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.ContactButton:hover{
+  width:20rem;
+  height:20rem;
+}
+.ContactButton > svg{
+  width:8rem;
+  height:8rem;
+}
+.ContactButton:hover > svg{
+  width:8rem;
+  height:8rem;
+  transition: 0.4s;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+.resumePage{
+  visibility: hidden;
+  display: none;
+  width:100%;
+  top:5rem;
+  position: relative;
+}
+.previous{
+  visibility:hidden;
+  display:none;
+  width:100%;
+  top:5rem;
+  position: relative;
+}
+.index{
+  top:5rem;
+  position: relative;
 }
